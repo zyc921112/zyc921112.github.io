@@ -12,7 +12,19 @@ h1,h2,h3,h4{ font-size:14px;}
 h5{ font-size:12px;}
 h6{ font-size:12px; font-weight:normal;}
 
-.box-lanrenzhijia{BACKGROUND: url(../images/bg01.png) no-repeat 6px 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 917px; HEIGHT: 248px}
+/*.box-lanrenzhijia{BACKGROUND: url(../images/bg01.png) no-repeat 6px 0px;
+    MARGIN: 0px auto;
+    OVERFLOW: hidden; WIDTH: 917px;
+    HEIGHT: 248px
+}*/
+.box-lanrenzhijia{
+    /*border: 1px solid red;*/
+       background: url(../images/bg01.png) no-repeat 6px 0px;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 917px;
+    height: 248px;
+}
 .box-lanrenzhijia UL {MARGIN: 7px 0px 0px 60px; OVERFLOW: hidden; WIDTH: 867px; HEIGHT: 225px}
 .box-lanrenzhijia UL LI {DISPLAY: inline; FLOAT: left; font-size:14px;}
 .box-lanrenzhijia UL LI IMG {DISPLAY: none}
@@ -21,4 +33,3 @@ h6{ font-size:12px; font-weight:normal;}
 .box-lanrenzhijia .last SPAN {PADDING-RIGHT: 14px; PADDING-LEFT: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px}
 .box-lanrenzhijia .current {COLOR: #fff}
 .box-lanrenzhijia .last img{ width:526px;}
-
