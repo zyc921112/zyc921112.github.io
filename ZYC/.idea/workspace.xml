@@ -21,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="indexa.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexa.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/indexa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/lanrenzhijia.css" />
-        <option value="$PROJECT_DIR$/indexa.html" />
+        <option value="$PROJECT_DIR$/index-1.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/indexa.html" />
       </list>
     </option>
   </component>
@@ -201,15 +202,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482561977430</updated>
-      <workItem from="1482561982383" duration="4705000" />
+      <workItem from="1482561982383" duration="5079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4705000" />
+    <option name="totallyTimeSpent" value="5079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1370" height="744" extended-state="1" />
+    <frame x="-9" y="0" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116366364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -267,18 +268,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexa.html">
+    <entry file="file://$PROJECT_DIR$/index-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
           <folding />
         </state>
       </provider>
