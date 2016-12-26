@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        var px=document.documentElement.clientWidth;
+        document.getElementsByTagName("html")[0].style.fontSize=px/3+"px";
+
+    </script>
+    <style type="text/css">
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div{
+            width: 1rem;
+            height: 1rem;
+            background-color: red;
+            margin: 0 auto;
+        }
+    </style>
+<body>
+<div id="div"></div>
+</body>
+<script type="text/javascript">
+    var div=document.getElementById('div');
+    var num=1;
+    div.addEventListener("touchend",function () {
+        if(num==1){
+            this.style.backgroundColor="blue";
+            num=2;
+        }else{
+            this.style.backgroundColor="red";
+            num=1;
+        }
+
+    });
+</script>
+</html>
