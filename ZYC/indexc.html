@@ -45,7 +45,18 @@
             background: url("images/zzf.jpg")no-repeat center;
            background-size: cover;
             border-radius: 50%;
+            animation:animations 10s linear forwards infinite;
         }
+
+        @-webkit-keyframes animations{
+            0%{-webkit-transform:rotate(0deg)}
+            25%{-webkit-transform:rotate(90deg)}
+            50%{-webkit-transform:rotate(180deg)}
+            75%{-webkit-transform:rotate(270deg)}
+            100%{-webkit-transform:rotate(360deg)}
+        }
+
+
         .content{
             margin-top: 0.3rem;
             font-size: 0.2rem;
@@ -66,7 +77,7 @@
          <h1>
              <div>张正逢征婚启示</div>
          </h1>
-         <audio src=""></audio>
+         <audio src="yinyue/zf.mp3" autoplay="autoplay" loop="loop"></audio>
          <div class="img">
          </div>
         <div class="content">
