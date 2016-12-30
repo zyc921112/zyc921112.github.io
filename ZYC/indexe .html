@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var px=document.documentElement.clientWidth;
+        //        console.log(px)
+        document.getElementsByTagName("html")[0].style.fontSize=px/3+"px";
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-size: 0.1rem;
+            background-color: gray;
+          /*  position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;*/
+        }
+        h1{
+            width: 3rem;
+            margin: 0 auto;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        h1 div{
+            width: 1rem;
+            margin: 0 auto;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        .img{
+            width: 1rem;
+            height: 1rem;
+            margin: 0.5rem auto 0;
+            background: url("images/zhen.jpg")no-repeat center;
+           background-size: cover;
+            border-radius: 50%;
+            animation:animations 10s linear forwards infinite;
+            -webkit-animation:animations 10s linear forwards infinite;
+        }
+
+        @-webkit-keyframes animations{
+            0%{-webkit-transform:rotate(0deg)}
+            25%{-webkit-transform:rotate(90deg)}
+            50%{-webkit-transform:rotate(180deg)}
+            75%{-webkit-transform:rotate(270deg)}
+            100%{-webkit-transform:rotate(360deg)}
+        }
+
+         @keyframes animations{
+            0%{-webkit-transform:rotate(0deg)}
+            25%{-webkit-transform:rotate(90deg)}
+            50%{-webkit-transform:rotate(180deg)}
+            75%{-webkit-transform:rotate(270deg)}
+            100%{-webkit-transform:rotate(360deg)}
+        }
+        .content{
+            margin-top: 0.3rem;
+            font-size: 0.2rem;
+
+        }
+        .content div{
+            text-align: center;
+            font-size: 0.3rem;
+            font-weight: bold;
+
+        }
+        .content p span{
+             margin-left: 0.2rem;
+        }
+    </style>
+</head>
+<body>
+         <h1>
+             <div>张正逢征婚启示</div>
+         </h1>
+         <audio src="yinyue/zf.mp3" autoplay="autoplay" loop="loop"></audio>
+         <div class="img">
+         </div>
+        <div class="content">
+            <div>自我介绍</div>
+            <p>
+                <span>本人姓名：张正峰</span><br>
+                <span>性别：男</span><br>
+
+            </p>
+        </div>
+
+</body>
+</html>
